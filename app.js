@@ -25,6 +25,7 @@ const allowedOrigins = [
   "https://samudra-cargo-server.vercel.app"
 ];
 
+
 const isAllowedOrigin = (origin) => {
   if (!origin) {
     return true;
