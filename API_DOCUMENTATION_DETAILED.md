@@ -11,7 +11,7 @@ All routes are mounted under `/api/v1` in `src/app.js`.
 
 ## Base URL
 ```env
-BASE_URL=http://localhost:8000/api/v1
+BASE_URL=https://samudra-cargo-server.vercel.app/api/v1
 ```
 
 ---
@@ -24,7 +24,7 @@ BASE_URL=http://localhost:8000/api/v1
 - Query params: `email`
 - Example:
   ```bash
-  curl "http://localhost:8000/api/v1/find-by-email?email=user@example.com"
+  curl "https://samudra-cargo-server.vercel.app/api/v1/find-by-email?email=user@example.com"
   ```
 
 ## `POST /register`

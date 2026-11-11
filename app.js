@@ -13,15 +13,16 @@ const quoteRequestRoutes = require("./src/routes/quoteRequestRoutes");
 const app = express();
 
 const allowedOrigins = [
-  "http://localhost:3000",
+  "https://stunning-frangipane-785007.netlify.app",
   "https://api.samuderathai.com",
-  "http://localhost:3000",
+  "https://stunning-frangipane-785007.netlify.app",
+  "https://splendid-pastelito-0151a0.netlify.app",
   "http://localhost:3001",
-  "http://localhost:3000",
-  "http://localhost:8000",
-  "http://localhost:8000",
+  "https://stunning-frangipane-785007.netlify.app",
+  "https://samudra-cargo-server.vercel.app",
+  "https://samudra-cargo-server.vercel.app",
   "https://grand-dusk-bb4780.netlify.app",
-  "http://localhost:8000"
+  "https://samudra-cargo-server.vercel.app"
 ];
 
 const isAllowedOrigin = (origin) => {

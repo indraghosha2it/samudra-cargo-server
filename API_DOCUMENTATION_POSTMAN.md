@@ -4,8 +4,8 @@ Grouped Postman collection for Samudera Cargo Cargo Server, with folders for Aut
 
 ## Environment Variables
 
-- `baseUrlRoot`: e.g. `http://localhost:8000`
-- `baseUrl`: e.g. `http://localhost:8000/api/v1`
+- `baseUrlRoot`: e.g. `https://samudra-cargo-server.vercel.app`
+- `baseUrl`: e.g. `https://samudra-cargo-server.vercel.app/api/v1`
 - `authToken`: JWT token for authenticated requests
 - Other variables: `userId`, `bookingId`, `shipmentId`, `invoiceId`, `manualInvoiceId`, `costId`, `warehouseId`, `queueId`, `consolidationId`, `trackingId`, `damageReportId`, `receiptId`, `inventoryId`
 

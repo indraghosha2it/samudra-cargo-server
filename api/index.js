@@ -1,12 +1,12 @@
 let cachedApp = null;
 
 const allowedOrigins = [
-	'http://localhost:3000',
+	'https://stunning-frangipane-785007.netlify.app',
 	'https://api.samuderathai.com',
 	'https://remarkable-flan-2a9036.netlify.app',
-	'http://localhost:3000',
+	'https://stunning-frangipane-785007.netlify.app',
 	'http://localhost:3001',
-	'http://localhost:3000'
+	'https://stunning-frangipane-785007.netlify.app'
 ];
 
 const isAllowedOrigin = (origin) => {
